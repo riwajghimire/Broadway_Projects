@@ -30,8 +30,5 @@ def scrape_books(url):
     with open("data.json", "w",encoding='utf-8') as f:
             json.dump(scraped_books,f,indent=4,ensure_ascii=False)
 
-# read from json and write to data base
-        
-        
 
 scrape_books(URL)
